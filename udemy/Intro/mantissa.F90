@@ -1,6 +1,5 @@
 program get_mantissa_exponent
-  ! real(kind=16) :: x = 127.23402
-  real :: x = 127.23402
+  real(kind=4) :: x = 127.23402
   integer :: exp_val
   real :: frac_val
 
